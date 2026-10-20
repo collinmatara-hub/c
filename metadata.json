@@ -1,0 +1,12 @@
+{
+  "name": "Matara University ERP v4.2.6",
+  "description": "Enterprise Resource Planning and Student Information System for Matara University with comprehensive RBAC, Academic Workflows, dedicated LMS, Finance, and Security Hardening.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "display-capture"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

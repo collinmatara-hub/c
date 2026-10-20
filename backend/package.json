@@ -1,0 +1,29 @@
+{
+  "name": "matara-university-erp-backend",
+  "version": "4.2.6",
+  "description": "Matara University - Management System API",
+  "main": "server.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node --test test/*.test.js",
+    "security:test": "npm audit --audit-level=high",
+    "reset:demo": "node reset-demo.js",
+    "migrate:v4": "node migrate-v4.js",
+    "audit:routes": "node scripts/audit-routes.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
+    "axios": "^1.7.7",
+    "@aws-sdk/client-s3": "^3.873.0"
+  }
+}
